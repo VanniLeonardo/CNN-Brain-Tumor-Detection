@@ -73,9 +73,9 @@ accuracy = correct_predictions / total_images
 
 print(f"Sensitivity: {sensitivity}")
 print(f"Specificity: {specificity}")
-print(f"Accuracy on test set: {accuracy}")
+print(f"Accuracy: {accuracy}")
 
-# Plot the results for the test set
+# Plot the results
 fig, axs = plt.subplots(2, 5, figsize=(15, 8))
 axs = axs.flatten()
 
